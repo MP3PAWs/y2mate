@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `y2mate`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Y2mate - Youtube Downloader | Download Youtube Video Free in HD`,
+    description: `Y2mate is easy to use and powerful Youtube downloader that allows you to easily save your favorite Youtube video and download them as mp3 music and mp4 files for free`,
+    author: `@y2mate`,
+    siteUrl: `https://y2mate.mobi/`,
   },
   plugins: [
     `gatsby-plugin-image`,

@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "y2mate",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Y2mate is easy to use and powerful Youtube downloader that allows you to easily save your favorite Youtube video and download them as mp3 music and mp4 files for free",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "y2mate",
   "dependencies": {
     "autoprefixer": "^10.4.14",
     "gatsby": "^5.9.0",
