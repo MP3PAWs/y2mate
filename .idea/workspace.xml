@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4d00a3-dca7-4867-b9b8-6e234badc366" name="Changes" comment="" />
+    <list default="true" id="5f4d00a3-dca7-4867-b9b8-6e234badc366" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +80,7 @@
       <workItem from="1684497114441" duration="3824000" />
       <workItem from="1684672407263" duration="8022000" />
       <workItem from="1684827756126" duration="20320000" />
-      <workItem from="1684897303786" duration="17813000" />
+      <workItem from="1684897303786" duration="18236000" />
     </task>
     <servers />
   </component>
