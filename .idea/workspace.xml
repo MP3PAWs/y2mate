@@ -4,97 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4d00a3-dca7-4867-b9b8-6e234badc366" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Alternate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/download.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gift.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/left-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/mobile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/video.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/about-us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ar/youtube-to-mp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ar/youtube-to-mp4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/bn/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/bn/youtube-to-mp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/bn/youtube-to-mp4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/fr/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/fr/youtube-to-mp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/fr/youtube-to-mp4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/hi/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/hi/youtube-to-mp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/hi/youtube-to-mp4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/id/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/id/youtube-to-mp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/id/youtube-to-mp4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/it/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/it/youtube-to-mp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/it/youtube-to-mp4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ja/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ja/youtube-to-mp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ja/youtube-to-mp4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ko/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ko/youtube-to-mp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ko/youtube-to-mp4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ms/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ms/youtube-to-mp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ms/youtube-to-mp4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/my/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/my/youtube-to-mp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/my/youtube-to-mp4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/privacy-policy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/pt/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/pt/youtube-to-mp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/pt/youtube-to-mp4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ru/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ru/youtube-to-mp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ru/youtube-to-mp4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/terms-condition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/th/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/th/youtube-to-mp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/th/youtube-to-mp4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/tl-ph/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/tl-ph/youtube-to-mp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/tl-ph/youtube-to-mp4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/tr/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/tr/youtube-to-mp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/tr/youtube-to-mp4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/vi/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/vi/youtube-to-mp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/vi/youtube-to-mp4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/zh-cn/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/zh-cn/youtube-to-mp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/zh-cn/youtube-to-mp4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/zh-tw/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/zh-tw/youtube-to-mp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/zh-tw/youtube-to-mp4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/seo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/example.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gatsby-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/using-ssr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/using-typescript.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/using-dsg.js" beforeDir="false" />
-    </list>
+    <list default="true" id="5f4d00a3-dca7-4867-b9b8-6e234badc366" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,23 +24,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Gatsby JS/Y2mate&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\Gatsby JS\\Y2mate\\node_modules\\prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.1.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Gatsby JS/Y2mate",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "D:\\Gatsby JS\\Y2mate\\node_modules\\prettier",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.1.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Gatsby JS\Y2mate\src\pages" />
@@ -167,7 +77,7 @@
       <workItem from="1684497114441" duration="3824000" />
       <workItem from="1684672407263" duration="8022000" />
       <workItem from="1684827756126" duration="20320000" />
-      <workItem from="1684897303786" duration="17458000" />
+      <workItem from="1684897303786" duration="17813000" />
     </task>
     <servers />
   </component>
