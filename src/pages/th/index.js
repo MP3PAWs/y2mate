@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
-import { Link, navigate } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image"
+import React, {useState} from 'react';
+import {Link, navigate} from "gatsby";
+import {StaticImage} from "gatsby-plugin-image"
 import '../../styles/global.css';
+import {DownloaderAlternate} from "../../components/Alternate";
 
 const YouTubeDownloader = () => {
   const [open, setOpen] = useState(false);
   const [suggestions, setSuggestions] = useState([]);
   const [inputValue, setInputValue] = useState("test");
-  const [selectedLanguage, setSelectedLanguage] = useState("ar");
+  const [selectedLanguage, setSelectedLanguage] = useState("th");
   const [openLanguage, setOpenLanguage] = useState(false);
 
   const handleLanguageChange = (language) => {
@@ -49,49 +50,49 @@ const YouTubeDownloader = () => {
 
   const handleSuggestionClick = (e) => {
     const value = e?.target?.textContent
-    navigate("/search", { state: { url: value } });
+    navigate("/search", {state: {url: value}});
   }
 
   const handleClickEnter = (e) => {
     if (e.keyCode === 13) {
       if (isYtUrl(inputValue)) {
-        navigate("/download", { state: { url: inputValue } });
+        navigate("/download", {state: {url: inputValue}});
       } else {
-        navigate("/search", { state: { url: inputValue } });
+        navigate("/search", {state: {url: inputValue}});
       }
     }
   };
 
   const handleClickConvert = () => {
     if (isYtUrl(inputValue)) {
-      navigate("/download", { state: { url: inputValue } });
+      navigate("/download", {state: {url: inputValue}});
     } else {
-      navigate("/search", { state: { url: inputValue } });
+      navigate("/search", {state: {url: inputValue}});
     }
   };
 
   const languageOptions = [
-    { lang: "en", label: "English", path: "/" },
-    { lang: "de", label: "Deutsch", path: "/de/" },
-    { lang: "es", label: "Español", path: "/es/" },
-    { lang: "fr", label: "Français", path: "/fr/" },
-    { lang: "hi", label: "हिन्दी / Hindi", path: "/hi/" },
-    { lang: "id", label: "Indonesian", path: "/id/" },
-    { lang: "it", label: "Italiano", path: "/it/" },
-    { lang: "ja", label: "ह日本語", path: "/ja/" },
-    { lang: "ko", label: "한국어", path: "/ko/" },
-    { lang: "my", label: "Myanmar (မြန်မာ)", path: "/my/" },
-    { lang: "ms", label: "Malay", path: "/ms/" },
-    { lang: "ph", label: "Filipino", path: "/tl-ph/" },
-    { lang: "pt", label: "Português", path: "/pt/" },
-    { lang: "ru", label: "Русский", path: "/ru/" },
-    { lang: "th", label: "ไทย", path: "/th/" },
-    { lang: "tr", label: "Türkçe", path: "/tr/" },
-    { lang: "vi", label: "Tiếng Việt", path: "/vi/" },
-    { lang: "zh-cn", label: "简体中文", path: "/zh-cn/" },
-    { lang: "zh-tw", label: "繁體中文", path: "/zh-tw/" },
-    { lang: "ar", label: "عربي", path: "/ar/" },
-    { lang: "bn", label: "বাঙালি", path: "/bn/" },
+    {lang: "en", label: "English", path: "/"},
+    {lang: "de", label: "Deutsch", path: "/de/"},
+    {lang: "es", label: "Español", path: "/es/"},
+    {lang: "fr", label: "Français", path: "/fr/"},
+    {lang: "hi", label: "हिन्दी / Hindi", path: "/hi/"},
+    {lang: "id", label: "Indonesian", path: "/id/"},
+    {lang: "it", label: "Italiano", path: "/it/"},
+    {lang: "ja", label: "ह日本語", path: "/ja/"},
+    {lang: "ko", label: "한국어", path: "/ko/"},
+    {lang: "my", label: "Myanmar (မြန်မာ)", path: "/my/"},
+    {lang: "ms", label: "Malay", path: "/ms/"},
+    {lang: "ph", label: "Filipino", path: "/tl-ph/"},
+    {lang: "pt", label: "Português", path: "/pt/"},
+    {lang: "ru", label: "Русский", path: "/ru/"},
+    {lang: "th", label: "ไทย", path: "/th/"},
+    {lang: "tr", label: "Türkçe", path: "/tr/"},
+    {lang: "vi", label: "Tiếng Việt", path: "/vi/"},
+    {lang: "zh-cn", label: "简体中文", path: "/zh-cn/"},
+    {lang: "zh-tw", label: "繁體中文", path: "/zh-tw/"},
+    {lang: "ar", label: "عربي", path: "/ar/"},
+    {lang: "bn", label: "বাঙালি", path: "/bn/"},
   ];
 
   return (
@@ -101,8 +102,8 @@ const YouTubeDownloader = () => {
           <div className="container mx-auto">
             <div className="flex justify-between items-center">
               <div className="md:flex lg:w-0 lg:flex-1">
-                <Link to="/ar/" className="md:inline-flex flex items-center">
-                  <StaticImage src="../../images/logo.png" placeholder="none" alt="y2mate" width={46} quality={80} />
+                <Link to="/th/" className="md:inline-flex flex items-center">
+                  <StaticImage src="../../images/logo.png" placeholder="none" alt="y2mate" width={46} quality={80}/>
                   <h1 className="text-2xl font-semibold w-auto z-50 pl-2 hover:text-primary">y2mate.mobi</h1>
                 </Link>
               </div>
@@ -113,27 +114,27 @@ const YouTubeDownloader = () => {
                   type="button"
                   className="inline-flex border-primary items-center justify-center border border-solid py-1 px-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
                 >
-                  <StaticImage src="../../images/mobile.svg" placeholder="none" alt="menu" width={25} quality={80} />
+                  <StaticImage src="../../images/mobile.svg" placeholder="none" alt="menu" width={25} quality={80}/>
                 </button>
               </div>
               <nav className="hidden md:flex">
                 <Link
                   className="text-sm py-[23px] px-[15px] hover:text-primary"
-                  to="/ar/">
+                  to="/th/">
                   YouTube Downloader
                 </Link>
                 <Link
                   className="text-sm py-[23px] px-[15px] hover:text-primary"
-                  to="/ar/youtube-to-mp4/">
+                  to="/th/youtube-to-mp4/">
                   YouTube to MP4 Converter
                 </Link>
                 <Link
                   className="text-sm py-[23px] px-[15px] hover:text-primary"
-                  to="/ar/youtube-to-mp3/">
+                  to="/th/youtube-to-mp3/">
                   YouTube to MP3 Converter
                 </Link>
                 <button onClick={() => setOpenLanguage(!openLanguage)}
-                  className="relative text-sm py-[23px] px-[15px] hover:text-primary">
+                        className="relative text-sm py-[23px] px-[15px] hover:text-primary">
                   {languageOptions.find((option) => option.lang === selectedLanguage)?.label || "Language"}
                   <span className="lang-border"></span>
                   {openLanguage &&
@@ -157,7 +158,7 @@ const YouTubeDownloader = () => {
           </div>
           <div
             className="absolute top-16 inset-x-0 transition transform origin-top-right md:!hidden z-20"
-            style={{ display: open ? "block" : "none" }}>
+            style={{display: open ? "block" : "none"}}>
             <div className="shadow-lg">
               <div className="shadow-xs bg-white divide-y-2 divide-gray-50">
                 <div className="pt-5 pb-6 px-5 space-y-6">
@@ -165,17 +166,17 @@ const YouTubeDownloader = () => {
                     <nav className="grid gap-y-4">
                       <Link
                         className="-m-3 p-3 flex items-center hover:text-primary transition duration-300"
-                        to="/ar/">
+                        to="/th/">
                         YouTube Downloader
                       </Link>
                       <Link
                         className="-m-3 p-3 flex items-center hover:text-primary transition duration-300"
-                        to="/ar/youtube-to-mp4/">
+                        to="/th/youtube-to-mp4/">
                         YouTube to MP4 Converter
                       </Link>
                       <Link
                         className="-m-3 p-3 flex items-center hover:text-primary transition duration-300"
-                        to="/ar/youtube-to-mp3/">
+                        to="/th/youtube-to-mp3/">
                         YouTube to MP3 Converter
                       </Link>
                       <div className="relative">
@@ -210,96 +211,110 @@ const YouTubeDownloader = () => {
         <section
           className="bg-white p-[15px] border border-solid rounded border-current !border-[#dddddd] container mx-auto">
           <div className="md:py-[30px] py-7 text-center">
-            <h1 className="mb-2.5 md:text-[34px] leading-snug text-2xl font-medium">Y2mate - Youtube Downloader</h1>
+            <h1 className="mb-2.5 md:text-[34px] leading-snug text-2xl font-medium">Y2mate - โปรแกรมดาวน์โหลด YouTube
+              ออนไลน์</h1>
             <div className="relative m-auto my-[24px]	md:my-[43px] md:w-[600px]">
               <input
                 type="text"
                 className="block md:text-base	text-sm w-full px-4 font-[revert] h-[60px] border-[5px] !outline-none border-solid rounded border-[#ff0068]"
-                placeholder="Search or paste link here..."
+                placeholder="ค้นหาหรือวางลิงค์ที่นี่..."
                 onChange={handleInputChange}
                 onKeyDown={handleClickEnter}
               />
               <button
                 className="md:px-4 rounded-r absolute top-0 right-0 font-[arial] text-sm md:w-[120px] w-[60px] h-[60px] -ml-1 text-white bg-button"
                 onClick={handleClickConvert}>
-                <span className="hidden md:contents">Start</span>
-                <StaticImage className="mt-1" src="../../images/left-arrow.svg" placeholder="none" alt="y2mate" />
+                <span className="hidden md:contents">เริ่ม</span>
+                <StaticImage className="mt-1" src="../../images/left-arrow.svg" placeholder="none" alt="y2mate"/>
               </button>
               {suggestions?.length ?
-                <ul className="absolute w-full bg-white text-black text-left z-50 border border-[#d3e0e9] shadow py-1.5">
+                <ul
+                  className="absolute w-full bg-white text-black text-left z-50 border border-[#d3e0e9] shadow py-1.5">
                   {suggestions.map((suggestion, index) => (
-                    <li aria-hidden="true" className="cursor-pointer px-2.5 hover:font-bold hover:bg-[#f0f0f0]" key={index}
-                      onClick={handleSuggestionClick}>{suggestion}</li>
+                    <li aria-hidden="true" className="cursor-pointer px-2.5 hover:font-bold hover:bg-[#f0f0f0]"
+                        key={index}
+                        onClick={handleSuggestionClick}>{suggestion}</li>
                   ))}
                 </ul> : ''
               }
               <p className="text-xs md:text-sm text-[#666] leading-snug p-1.5">
-                By using our service you are accepting our
-                <Link className="text-[#c10841]" to="/terms-condition/">&nbsp;Terms of Use.</Link>
+                การใช้บริการของเราถือว่าคุณยอมรับ
+                <Link className="text-[#c10841]" to="/terms-condition/">&nbsp;เงื่อนไขการใช้งาน ของเรา</Link>
               </p>
             </div>
           </div>
         </section>
         <section className="py-[25px] md:py-[30px] text-center leading-snug">
-          <h2 className="text-[26px] font-bold py-2.5">Download Video and Audio from YouTube</h2>
-          <h4 className="my-2.5 text-lg leading-snug">Y2mate Free and Popular Youtube Downloader using this tool you can
-            convert & save videos from YouTube, Facebook, Youku, Dailymotion and etc. Y2mate offer choosing audio and
-            video in various formats such as MP3, MP4, M4V, 3GP, WMV, FLV, MO, WEBM, etc. You can download videos
-            quickly and easily from YouTube or any other video sharing website within a few clicks.</h4>
+          <h2 className="text-[26px] font-bold py-2.5">ดาวน์โหลด Youtube MP3 และ MP4 ที่ดีที่สุด</h2>
+          <h4 className="my-2.5 text-lg leading-snug">
+            Y2Mate เป็นเครื่องมือดาวน์โหลด Youtube ที่รวดเร็วและฟรีที่ดีที่สุด
+            ซึ่งช่วยให้คุณแปลงและดาวน์โหลดวิดีโอโปรดของคุณจาก YouTube, Facebook, Vimeo, Youku, Twitch, Dailymotion
+            และอื่น ๆ ได้อย่างง่ายดายโดยไม่ต้องโฆษณา การใช้ตัวแปลง Y2mate นี้ คุณสามารถดาวน์โหลด mp3 และ mp4 จาก youtube
+            ได้โดยไม่มีข้อจำกัด เข้ากันได้และใช้งานง่ายกับอุปกรณ์ทั้งหมด เช่น โทรศัพท์มือถือ Android, iOS, iPhone,
+            คอมพิวเตอร์ และแท็บเล็ต
+          </h4>
+          <h4 className="my-2.5 text-lg leading-snug">
+            คุณไม่จำเป็นต้องติดตั้งแอพและซอฟต์แวร์ Y2mate มีรูปแบบเสียงและวิดีโอคุณภาพระดับ HD ที่หลากหลาย เช่น MP3,
+            M4V, MP4, FLV, 3GP, AVI, WEBM, WMV ฯลฯ เป็นวิธีที่ปลอดภัยและรวดเร็วในการบันทึกวิดีโอจาก YouTube
+            หรือแพลตฟอร์มแชร์วิดีโออื่นๆ ด้วยขั้นตอนง่ายๆ .
+          </h4>
         </section>
-        <hr className="md: w-5/6 h-px mx-auto bg-gray-200 border-0 rounded dark:bg-gray-700" />
+        <hr className="md: w-5/6 h-px mx-auto bg-gray-200 border-0 rounded dark:bg-gray-700"/>
         <section className="py-[30px] md:flex block justify-between">
           <div className="md:w-[60%] md:px-[15px]">
-            <h5 className="text-lg my-1.5 font-normal"><strong>Instructions</strong></h5>
+            <h5 className="text-lg my-1.5 font-normal"><strong>คำแนะนำ</strong></h5>
             <ol className="m-0 pl-4 list-decimal">
-              <li className="mb-2.5 text-[17px]">Enter a keyword in the search box or paste the video link that you want
-                to convert and download
+              <li className="mb-2.5 text-[17px]">
+                ใส่คำหลักในช่องป้อนข้อมูลหรือวาง URL ของวิดีโอที่คุณต้องการแปลง
               </li>
-              <li className="mb-2.5 text-[17px]">Press the "Start" button and converting process start</li>
-              <li className="mb-2.5 text-[17px]">Choose the Audio and Video format would you like to download then click
-                on the Download button.
+              <li className="mb-2.5 text-[17px]">เพียงคลิกที่ปุ่ม "เริ่ม" และการแปลงจะเริ่มขึ้น</li>
+              <li className="mb-2.5 text-[17px]">
+                เลือกรูปแบบ (วิดีโอ, เสียง) และคุณภาพของการดาวน์โหลด จากนั้นคลิกปุ่ม "ดาวน์โหลด"
               </li>
             </ol>
           </div>
           <div className="md:w-[40%] md:px-[15px]">
-            <h5 className="text-lg my-1.5 font-normal"><strong>Y2mate Advantage</strong></h5>
+            <h5 className="text-lg my-1.5 font-normal"><strong>ข้อได้เปรียบ Y2mate</strong></h5>
             <ol className="m-0 pl-4 list-disc">
-              <li className="mb-2.5 text-[17px]">Convert and Download Absolutely free and Unlimited use As many as you
-                want
+              <li className="mb-2.5 text-[17px]">
+                เพลิดเพลินกับการดาวน์โหลดวิดีโอไม่จำกัดจำนวนโดยไม่เสียค่าใช้จ่าย
               </li>
-              <li className="mb-2.5 text-[17px]">We use Latest Technology so you can</li>
-              <li className="mb-2.5 text-[17px]">No Need to register and login required</li>
-              <li className="mb-2.5 text-[17px]">We support All video and audio formats conversion</li>
-              <li className="mb-2.5 text-[17px]">You will not need to install third-party applications and software</li>
+              <li className="mb-2.5 text-[17px]">ไม่จำเป็นต้องลงทะเบียนหรือเข้าสู่ระบบบัญชี</li>
+              <li className="mb-2.5 text-[17px]">รองรับการดาวน์โหลดทุกรูปแบบและคุณภาพ</li>
+              <li className="mb-2.5 text-[17px]">ความเร็วในการดาวน์โหลดและการแปลงที่รวดเร็วเป็นพิเศษ</li>
+              <li className="mb-2.5 text-[17px]">ตัวแปลงที่ปลอดภัย 100%</li>
             </ol>
           </div>
         </section>
-        <hr className="md: w-5/6 h-px mx-auto bg-gray-200 border-0 rounded dark:bg-gray-700" />
+        <hr className="md: w-5/6 h-px mx-auto bg-gray-200 border-0 rounded dark:bg-gray-700"/>
         <section className="py-[25px] md:py-[30px] md:flex">
           <div className="md:w-1/3 text-center">
-            <StaticImage src="../../images/gift.svg" placeholder="none" alt="y2mateGift" quality={50} />
-            <h3 className="text-primary text-[22px] font-bold mb-2 mt-[22px]">Free Youtube Downloader</h3>
-            <p className="mb-2.5">Unlimited and Free Youtube Conversion and Download.</p>
+            <StaticImage src="../../images/gift.svg" placeholder="none" alt="y2mateGift" quality={50}/>
+            <h3 className="text-primary text-[22px] font-bold mb-2 mt-[22px]">ดาวน์โหลดฟรีและไม่ จำกัด</h3>
+            <p className="mb-2.5">การแปลงวิดีโอ Youtube ไม่ จำกัด และดาวน์โหลดฟรี</p>
           </div>
           <div className="md:w-1/3 text-center">
-            <StaticImage src="../../images/video.svg" placeholder="none" alt="y2mateSupport" quality={50} />
-            <h3 className="text-primary text-[22px] font-bold mb-2 mt-[22px]">Y2mate Support Multiple Audio and Video
-              Format</h3>
-            <p className="mb-2.5">Y2Mate offers various MP3 and MP4 Formats such as MP3, 3GP, MP4, WMA, M4A, FLV, WEBM
-              and MO formats, etc.</p>
+            <StaticImage src="../../images/download.svg" placeholder="none" alt="y2mateDownload" quality={50}/>
+            <h3 className="text-primary text-[22px] font-bold mb-2 mt-[22px]">ดาวน์โหลดง่ายและรวดเร็ว</h3>
+            <p className="mb-2.5">เข้ากันได้อย่างสมบูรณ์กับเบราว์เซอร์และอุปกรณ์ทั้งหมด</p>
           </div>
           <div className="md:w-1/3 text-center">
-            <StaticImage src="../../images/download.svg" placeholder="none" alt="y2mateDownload" quality={50} />
-            <h3 className="text-primary text-[22px] font-bold mb-2 mt-[22px]">Easy to use and Download</h3>
-            <p className="mb-2.5">Y2mate is Easy to use and Fully Compatible with All Devices and Browsers</p>
+            <StaticImage src="../../images/video.svg" placeholder="none" alt="y2mateSupport" quality={50}/>
+            <h3 className="text-primary text-[22px] font-bold mb-2 mt-[22px]">วิดีโอและเสียงคุณภาพสูง</h3>
+            <p className="mb-2.5">รองรับการดาวน์โหลดเสียงและวิดีโอคุณภาพสูงในรูปแบบต้นฉบับ</p>
           </div>
         </section>
-        <hr className="md: w-5/6 h-px mx-auto bg-gray-200 border-0 rounded dark:bg-gray-700" />
+        <hr className="md: w-5/6 h-px mx-auto bg-gray-200 border-0 rounded dark:bg-gray-700"/>
         <section className="py-[30px]">
-          <p className="max-w-full mb-2.5"><b>Tip: </b>Remove www from URL and add <b>“Y2mate”</b> before the "youtube.com" in the URL to download videos( MP4 ) and audio( MP3 ) files from YouTube as a faster solution.</p>
-          <p className="max-w-full mb-0.5">If you are not able to download video to your Device, please follow these instructions:</p>
-          <p className="max-w-full"><b>Step1: </b>choose the format of your choice and click the "Download" button</p>
-          <p className="max-w-full mb-2.5"><b>Step2: </b>In the new window, click "CTRL + S" to save video OR right click to video, then select "Save as Video".</p>
+          <p className="max-w-full mb-2.5"><b>เคล็ดลับ: </b>ลบ www ออกจาก URL และเพิ่ม <b>“Y2mate”</b> ก่อน
+            "youtube.com" ใน URL เพื่อดาวน์โหลดไฟล์วิดีโอ (MP4) และไฟล์เสียง (MP3) จาก YouTube
+            เป็นวิธีแก้ปัญหาที่รวดเร็วกว่า
+          </p>
+          <p className="max-w-full mb-0.5">หากคุณไม่สามารถดาวน์โหลดวิดีโอไปยังอุปกรณ์ของคุณ
+            โปรดปฏิบัติตามคำแนะนำเหล่านี้:</p>
+          <p className="max-w-full"><b>ขั้นตอนที่ 1: </b>เลือกรูปแบบที่คุณต้องการแล้วคลิกปุ่ม "ดาวน์โหลด"</p>
+          <p className="max-w-full mb-2.5"><b>ขั้นตอนที่ 2: </b>ในหน้าต่างใหม่ คลิก "CTRL + S"
+            เพื่อบันทึกวิดีโอหรือคลิกขวาที่วิดีโอ จากนั้นเลือก "บันทึกเป็นวิดีโอ"</p>
         </section>
       </div>
       <footer>
@@ -321,44 +336,23 @@ export default YouTubeDownloader;
 
 export const Head = () => (
   <>
-    <html lang="ar" />
-    <title>y2mate - YouTube Downloader | Download YouTube Video Free</title>
+    <html lang="th"/>
+    <title>Y2mate - โปรแกรมดาวน์โหลด Youtube | ดาวน์โหลดวิดีโอ Youtube ฟรีในรูปแบบ HD</title>
     <meta
       name="description"
-      content="y2mate is popular Free YouTube Downloader allow to Download YouTube video for Free with high quality in 1080p, 2160p, 2k, 4k, 8k without install software." />
-    <meta name="robots" content="index,follow" />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="y2mate" />
-    <meta property="og:locale" content="ar" />
-    <meta property="og:title" content="y2mate - YouTube Downloader | Download YouTube Video Free" />
+      content="Y2mate เป็นเครื่องมือดาวน์โหลด Youtube ที่ใช้งานง่ายและทรงพลังที่ให้คุณบันทึกวิดีโอ Youtube ที่คุณชื่นชอบและดาวน์โหลดเป็นไฟล์เพลง mp3 และ mp4 ได้ฟรี"/>
+    <meta name="robots" content="index,follow"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="y2mate"/>
+    <meta property="og:locale" content="th"/>
+    <meta property="og:title" content="Y2mate - โปรแกรมดาวน์โหลด Youtube | ดาวน์โหลดวิดีโอ Youtube ฟรีในรูปแบบ HD"/>
     <meta
       property="og:description"
-      content="y2mate is popular Free YouTube Downloader allow to Download YouTube video for Free with high quality in 1080p, 2160p, 2k, 4k, 8k without install software." />
-    <meta property="og:image" content="https://y2mate.mobi/icons/icon-256x256.png" />
-    <meta property="og:url" content="https://y2mate.mobi/ar/" />
-    <link rel="icon" href="https://y2mate.mobi/icons/icon-256x256.png" />
-    <link rel="canonical" href="https://y2mate.mobi/ar/" />
-    <link rel="alternate" hrefLang="en" href="https://y2mate.mobi/" />
-    <link rel="alternate" hrefLang="de" href="https://y2mate.mobi/de/" />
-    <link rel="alternate" hrefLang="es" href="https://y2mate.mobi/es/" />
-    <link rel="alternate" hrefLang="fr" href="https://y2mate.mobi/fr/" />
-    <link rel="alternate" hrefLang="hi" href="https://y2mate.mobi/hi/" />
-    <link rel="alternate" hrefLang="id" href="https://y2mate.mobi/id/" />
-    <link rel="alternate" hrefLang="it" href="https://y2mate.mobi/it/" />
-    <link rel="alternate" hrefLang="ja" href="https://y2mate.mobi/ja/" />
-    <link rel="alternate" hrefLang="ko" href="https://y2mate.mobi/ko/" />
-    <link rel="alternate" hrefLang="my" href="https://y2mate.mobi/my/" />
-    <link rel="alternate" hrefLang="ms" href="https://y2mate.mobi/ms/" />
-    <link rel="alternate" hrefLang="tl-ph" href="https://y2mate.mobi/tl-ph/" />
-    <link rel="alternate" hrefLang="pt" href="https://y2mate.mobi/pt/" />
-    <link rel="alternate" hrefLang="ru" href="https://y2mate.mobi/ru/" />
-    <link rel="alternate" hrefLang="th" href="https://y2mate.mobi/th/" />
-    <link rel="alternate" hrefLang="tr" href="https://y2mate.mobi/tr/" />
-    <link rel="alternate" hrefLang="vi" href="https://y2mate.mobi/vi/" />
-    <link rel="alternate" hrefLang="zh-cn" href="https://y2mate.mobi/zh-cn/" />
-    <link rel="alternate" hrefLang="zh-tw" href="https://y2mate.mobi/zh-tw/" />
-    <link rel="alternate" hrefLang="ar" href="https://y2mate.mobi/ar/" />
-    <link rel="alternate" hrefLang="bn" href="https://y2mate.mobi/bn/" />
-    <link rel="alternate" hrefLang="x-default" href="https://y2mate.mobi/" />
+      content="Y2mate เป็นเครื่องมือดาวน์โหลด Youtube ที่ใช้งานง่ายและทรงพลังที่ให้คุณบันทึกวิดีโอ Youtube ที่คุณชื่นชอบและดาวน์โหลดเป็นไฟล์เพลง mp3 และ mp4 ได้ฟรี"/>
+    <meta property="og:image" content="https://y2mate.mobi/icons/icon-256x256.png"/>
+    <meta property="og:url" content="https://y2mate.mobi/th/"/>
+    <link rel="icon" href="https://y2mate.mobi/icons/icon-256x256.png"/>
+    <link rel="canonical" href="https://y2mate.mobi/th/"/>
+    <DownloaderAlternate/>
   </>
 )
