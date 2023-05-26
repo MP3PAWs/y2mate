@@ -6,8 +6,75 @@
   <component name="ChangeListManager">
     <list default="true" id="5f4d00a3-dca7-4867-b9b8-6e234badc366" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about-us.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about-us.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ar/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ar/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ar/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ar/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/bn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/bn/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/bn/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/bn/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/bn/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/bn/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/de/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/de/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/de/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/de/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/de/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/de/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/download.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/download.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/es/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/es/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/es/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/es/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/es/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/es/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/fr/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fr/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/fr/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fr/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/fr/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fr/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/hi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/hi/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/hi/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/hi/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/hi/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/hi/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/id/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/id/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/id/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/id/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/id/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/id/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/it/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/it/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/it/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/it/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/it/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/it/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ja/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ja/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ja/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ja/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ja/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ja/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ko/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ko/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ko/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ko/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ko/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ko/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ms/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ms/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ms/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ms/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ms/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ms/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/my/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/my/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/my/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/my/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/my/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/my/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/privacy-policy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/privacy-policy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/pt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/pt/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/pt/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/pt/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/pt/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/pt/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ru/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ru/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ru/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ru/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ru/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ru/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/terms-condition.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/terms-condition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/th/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/th/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/th/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/th/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/th/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/th/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tl-ph/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tl-ph/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tl-ph/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tl-ph/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tl-ph/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tl-ph/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tr/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tr/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tr/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tr/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tr/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tr/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/vi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/vi/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/vi/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/vi/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/vi/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/vi/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/zh-cn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/zh-cn/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/zh-cn/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/zh-cn/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/zh-cn/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/zh-cn/youtube-to-mp4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/zh-tw/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/zh-tw/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/zh-tw/youtube-to-mp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/zh-tw/youtube-to-mp3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/zh-tw/youtube-to-mp4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/zh-tw/youtube-to-mp4.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +149,8 @@
       <workItem from="1684672407263" duration="8022000" />
       <workItem from="1684827756126" duration="20320000" />
       <workItem from="1684897303786" duration="19173000" />
+      <workItem from="1684924130287" duration="29000" />
+      <workItem from="1685078947047" duration="4379000" />
     </task>
     <servers />
   </component>

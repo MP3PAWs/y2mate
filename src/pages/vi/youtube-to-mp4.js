@@ -104,7 +104,7 @@ const YouTubeToMP4 = () => {
               <div className="md:flex lg:w-0 lg:flex-1">
                 <Link to="/vi/" className="md:inline-flex flex items-center">
                   <StaticImage src="../../images/logo.png" placeholder="none" alt="y2mate" width={46} quality={80}/>
-                  <h1 className="text-2xl font-semibold w-auto z-50 pl-2 hover:text-primary">y2mate.mobi</h1>
+                  <h1 className="text-2xl font-semibold w-auto z-50 pl-2 hover:text-primary">Y2mate</h1>
                 </Link>
               </div>
               <div className="md:hidden">
@@ -319,7 +319,7 @@ const YouTubeToMP4 = () => {
       </div>
       <footer>
         <div className="py-[20px] text-sm text-center border-solid border-y border-inherit">
-          <p className="mb-5 text-center max-w-full">@2023 y2mate.mobi</p>
+          <p className="mb-5 text-center max-w-full">@2023 Y2mate</p>
           <ul className="flex justify-center">
             <li><Link className="mx-2" to="/about-us/">About</Link></li>
             <li><Link className="mx-2" to="/contact/">Contact</Link></li>
