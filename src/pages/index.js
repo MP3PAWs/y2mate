@@ -101,7 +101,7 @@ const YouTubeDownloader = () => {
           <div className="container mx-auto">
             <div className="flex justify-between items-center">
               <div className="md:flex lg:w-0 lg:flex-1">
-                <Link to="/" className="md:inline-flex flex items-center">
+                <Link to="https://y2mate.mobi/" className="md:inline-flex flex items-center">
                   <StaticImage src="../images/logo.png" placeholder="none" alt="y2mate" width={46}
                                quality={80}/>
                   <h1 className="text-2xl font-semibold w-auto z-50 pl-2 hover:text-primary">Y2mate</h1>
@@ -251,7 +251,7 @@ const YouTubeDownloader = () => {
         <section className="py-[25px] md:py-[30px] text-center leading-snug">
           <h2 className="text-[26px] font-bold py-2.5">Best Youtube MP3 & MP4 Downloader</h2>
           <h4 className="my-2.5 text-lg leading-snug">
-            Y2Mate is the best fast and free Youtube Downloader tool that helps you easily convert & download your
+            <a className='text-[#551A8B]' href='https://y2mate.mobi/'>Y2Mate</a> is the best fast and free Youtube Downloader tool that helps you easily convert & download your
             favorite videos from YouTube, Facebook, Vimeo, Youku,Twitch, Dailymotion, etc without advertising. using
             this Y2mate converter you can download mp3 and mp4 from youtube without limitation. This is compatible and
             easy to use with all devices such as Android Mobiles, iOS, iPhone, Computer, and tablet.
@@ -309,7 +309,7 @@ const YouTubeDownloader = () => {
         </section>
         <hr className="md: w-5/6 h-px mx-auto bg-gray-200 border-0 rounded dark:bg-gray-700"/>
         <section className="py-[30px]">
-          <p className="max-w-full mb-2.5"><b>Tip: </b>Remove www from URL and add <b> “Y2mate” </b>
+          <p className="max-w-full mb-2.5"><b>Tip: </b>Remove www from URL and add <b> <a className='text-[#551A8B]' href='https://y2mate.mobi/'>“Y2mate”</a> </b>
             before the "youtube.com" in the URL to download videos( MP4 ) and audio( MP3 ) files from YouTube as a
             faster solution.
           </p>
@@ -326,7 +326,7 @@ const YouTubeDownloader = () => {
       </div>
       <footer>
         <div className="py-[20px] text-sm text-center border-solid border-y border-inherit">
-          <p className="mb-5 text-center max-w-full">@2023 Y2mate</p>
+          <p className="mb-5 text-center max-w-full">@2023 <a className='text-[#551A8B]' href='https://y2mate.mobi/'>Y2mate</a></p>
           <ul className="flex justify-center">
             <li><Link className="mx-2" to="/about-us/">About</Link></li>
             <li><Link className="mx-2" to="/contact/">Contact</Link></li>

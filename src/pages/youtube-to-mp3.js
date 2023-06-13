@@ -102,7 +102,7 @@ const YouTubeToMP3 = () => {
           <div className="container mx-auto">
             <div className="flex justify-between items-center">
               <div className="md:flex lg:w-0 lg:flex-1">
-                <Link to="/" className="md:inline-flex flex items-center">
+                <Link to="https://y2mate.mobi/" className="md:inline-flex flex items-center">
                   <StaticImage src="../images/logo.png" placeholder="none" alt="y2mate" width={46} quality={80}/>
                   <h1 className="text-2xl font-semibold w-auto z-50 pl-2 hover:text-primary">Y2mate</h1>
                 </Link>
@@ -246,7 +246,7 @@ const YouTubeToMP3 = () => {
         <section className="py-[25px] md:py-[30px] text-center leading-snug">
           <h2 className="text-[26px] font-bold py-2.5">Convert YouTube to MP3</h2>
           <h4 className="my-2.5 text-lg leading-snug">
-            Y2mate is the best and fastest Youtube to mp3 converter tool. Our YouTube to mp3 tool allows you to convert
+          <a className='text-[#551A8B]' href='https://y2mate.mobi/'>Y2mate</a> is the best and fastest Youtube to mp3 converter tool. Our YouTube to mp3 tool allows you to convert
             and download youtube videos from youtube in high quality without installing any software. Y2mate works
             effortlessly on tablet, desktop and mobile devices.
           </h4>
@@ -295,7 +295,7 @@ const YouTubeToMP3 = () => {
           <div className="md:w-1/3 text-center">
             <StaticImage src="../images/video.svg" placeholder="none" alt="y2mateSupport" quality={50}/>
             <h3 className="text-primary text-[22px] font-bold mb-2 mt-[22px]">All Device compatibility</h3>
-            <p className="mb-2.5">Y2mate converter is responsive and compatible for all types of devices that run
+            <p className="mb-2.5"><a className='text-[#551A8B]' href='https://y2mate.mobi/'>Y2mate</a> converter is responsive and compatible for all types of devices that run
               perfectly on Mobile, PC, Android, and iOS. Also works with all browsers.</p>
           </div>
           <div className="md:w-1/3 text-center">
@@ -307,16 +307,16 @@ const YouTubeToMP3 = () => {
         </section>
         <hr className="md: w-5/6 h-px mx-auto bg-gray-200 border-0 rounded dark:bg-gray-700"/>
         <section className="py-[30px]">
-          <p className="max-w-full mb-2.5">Insert Keyword <b>“Y2mate”</b> before Youtube.com url and hit Enter button -
+          <p className="max-w-full mb-2.5">Insert Keyword <b><a className='text-[#551A8B]' href='https://y2mate.mobi/'>“Y2mate”</a></b> before Youtube.com url and hit Enter button -
             this will allow you to download mp3 from YouTube faster.</p>
-          <p className="max-w-full mb-0.5">Here's an example - youtube.com/watch?v=abc75hj =>
+          <p className="max-w-full mb-0.5">Here's an example - youtube.com/watch?v=abc75hj =
             y2mateyoutube.com/watch?v=abc75hj Choose the format you would like to download and then click the download
             button</p>
         </section>
       </div>
       <footer>
         <div className="py-[20px] text-sm text-center border-solid border-y border-inherit">
-          <p className="mb-5 text-center max-w-full">@2023 Y2mate</p>
+          <p className="mb-5 text-center max-w-full">@2023 <a className='text-[#551A8B]' href='https://y2mate.mobi/'>Y2mate</a></p>
           <ul className="flex justify-center">
             <li><Link className="mx-2" to="/about-us/">About</Link></li>
             <li><Link className="mx-2" to="/contact/">Contact</Link></li>

@@ -102,7 +102,7 @@ const YouTubeToMP4 = () => {
           <div className="container mx-auto">
             <div className="flex justify-between items-center">
               <div className="md:flex lg:w-0 lg:flex-1">
-                <Link to="/" className="md:inline-flex flex items-center">
+                <Link to="https://y2mate.mobi/" className="md:inline-flex flex items-center">
                   <StaticImage src="../images/logo.png" placeholder="none" alt="y2mate" width={46} quality={80}/>
                   <h1 className="text-2xl font-semibold w-auto z-50 pl-2 hover:text-primary">Y2mate</h1>
                 </Link>
@@ -247,7 +247,7 @@ const YouTubeToMP4 = () => {
         <section className="py-[25px] md:py-[30px] text-center leading-snug">
           <h2 className="text-[26px] font-bold py-2.5">Best YouTube to MP4 Converter</h2>
           <h4 className="my-2.5 text-lg leading-snug">
-            Y2mate is a popular online youtube to mp4 converter that allows you to easily convert youtube videos to MP4
+          <a className='text-[#551A8B]' href='https://y2mate.mobi/'>Y2mate</a> is a popular online youtube to mp4 converter that allows you to easily convert youtube videos to MP4
             and download in high quality formats without installing any software. You can download videos from YouTube
             for free with the fastest and popular YouTube Downloader. It’s fast and easy to use YouTube to mp4
             converter.
@@ -290,7 +290,7 @@ const YouTubeToMP4 = () => {
           <div className="md:w-1/3 text-center">
             <StaticImage src="../images/gift.svg" placeholder="none" alt="y2mateGift" quality={50}/>
             <h3 className="text-primary text-[22px] font-bold mb-2 mt-[22px]">Fast and Easy Conversion</h3>
-            <p className="mb-2.5">Y2mate is an easy-to-use tool that simplifies the process to convert YouTube to mp4.
+            <p className="mb-2.5"><a className='text-[#551A8B]' href='https://y2mate.mobi/'>Y2mate</a> is an easy-to-use tool that simplifies the process to convert YouTube to mp4.
               So you can easily download MP4 videos from YouTube and watch them offline.</p>
           </div>
           <div className="md:w-1/3 text-center">
@@ -309,14 +309,14 @@ const YouTubeToMP4 = () => {
         <hr className="md: w-5/6 h-px mx-auto bg-gray-200 border-0 rounded dark:bg-gray-700"/>
         <section className="py-[30px]">
           <p className="max-w-full mb-2.5">With This YouTube to Mp4 Converter you can download fast using this method.
-            Just type <b>“Y2mate”</b> before Youtube URL and hit the Enter button</p>
-          <p className="max-w-full mb-0.5">Here is example - youtube.com/watch?v=abc75hj =>
+            Just type <b><a className='text-[#551A8B]' href='https://y2mate.mobi/'>“Y2mate”</a></b> before Youtube URL and hit the Enter button</p>
+          <p className="max-w-full mb-0.5">Here is example - youtube.com/watch?v=abc75hj =
             y2mateyoutube.com/watch?v=abc75hj Select format you want to download and push download button</p>
         </section>
       </div>
       <footer>
         <div className="py-[20px] text-sm text-center border-solid border-y border-inherit">
-          <p className="mb-5 text-center max-w-full">@2023 Y2mate</p>
+          <p className="mb-5 text-center max-w-full">@2023 <a className='text-[#551A8B]' href='https://y2mate.mobi/'>Y2mate</a></p>
           <ul className="flex justify-center">
             <li><Link className="mx-2" to="/about-us/">About</Link></li>
             <li><Link className="mx-2" to="/contact/">Contact</Link></li>
